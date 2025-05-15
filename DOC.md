@@ -45,24 +45,24 @@ Task-specific evaluation. (a): UniEval aligns with the average of MMMU and GenEv
 ### 🥇 Leaderboards
 * Unified Multimodal Understanding and Generation Models
 ![UniRes](assets/uni_res.jpg)
-<div align="center">
+<div align="center" style="margin-top: 2px;">
 Overall and level-1 UniScores of unified models.
 </div>
 
 * Visual Generation Models
 ![GenRes](assets/gen_res.jpg)
-<div align="center">
+<div align="center" style="margin-top: 2px;">
 Overall and level-1 UniScores of visual generation models.
 </div>
 
 # 📊 Detailed Results
 * UniScores of Level-2 Tags
 ![UniL2](assets/l2_uni.jpg)
-<div align="center">
+<div align="center" style="margin-top: 2px;">
 Level-2 UniScores of unified models.
 </div>
 ![GenL2](assets/l2_gen.jpg)
-<div align="center">
+<div align="center" style="margin-top: 2px;">
 Level-2 UniScores of visual generation models.
 </div>
 
