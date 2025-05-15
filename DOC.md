@@ -103,6 +103,8 @@ Visual comparision. An example with the responses of three unified models. "BCAA
 
 * Case Study
 ![Case12](assets/case_study.jpg)
-The case information is shown on the left, including prompt, questions, options, answers, and insights. The generated images are depicted on the right, with corresponding model predictions on the image top. The model name is listed on the bottom right, with the UniScore of this case. The Gen. only score and Und.
+Some visual tags are very challenging, e.g., the programming language, some attributes also require the visual reasoning ability, such as the culturally specific name (Quan). We find model with good self-consistency can achieve high scores. While some models are biased in response (almost answer A in Show-o), thus, hurt the overall results. Besides, UniEval enables task-specific evaluation to analyze each part of unified models as in the case of Show-o.
 ![Case34](assets/case_study2.jpg)
-The case information is shown on the left, including prompt, questions, options, answers, and insights. The generated images are depicted on the right, with corresponding model predictions on the image top (“?” indicates an invalid response out of A-E). The model name is listed on the bottom right, with the UniScore of this case.
+Some models like Janus-Pro-1B \cite{chen2025janus} may not follow the format and output some invalid responses (marked as “?”). Besides, visual generation using a complex prompt is challenging.
+![Case56](assets/success_case.jpg)
+Success cases of Janus-Pro-7B (Uni) and DALL-E2 (Gen). The case information is shown on the left, including prompt, questions, options, and answers. The generated images are depicted on the right, with corresponding model predictions on the image top. The model name is listed on the bottom right, with the UniScore of this case.
