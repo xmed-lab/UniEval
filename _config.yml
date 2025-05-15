@@ -1,0 +1,12 @@
+plugins:
+  - jekyll-relative-links
+theme: jekyll-theme-cayman
+title: UniEval
+url: "https://UniEval.github.io"
+relative_links:
+  enabled: true
+  collections: true
+index: DOC.md
+include:
+  - DOC.md
+  - README.md
