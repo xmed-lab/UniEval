@@ -4,7 +4,7 @@ permalink: /
 
 # UniEval: Unified Holistic Evaluation for Unified Multimodal Understanding and Generation
 
-[🐙 GitHub](https://github.com/xmed-lab/UniEval) [🤗 UniBench](https://huggingface.co/datasets/yili7eli/UniBench) [📄 arXiv](https://arxiv.org)
+[🐙 GitHub](https://github.com/xmed-lab/UniEval) [🤗 UniBench](https://huggingface.co/datasets/yili7eli/UniBench) [📄 arXiv](https://arxiv.org/abs/2505.10483)
 
 UniEval is the first evaluation framework designed for unified multimodal models, including a holistic benchmark UniBench and the UniScore metric.
 
