@@ -1,5 +1,6 @@
 ---
 permalink: /
+title: UniEval
 ---
 
 # UniEval: Unified Holistic Evaluation for Unified Multimodal Understanding and Generation
