@@ -1,7 +1,7 @@
 # UniEval: Unified Holistic Evaluation for Unified Multimodal Understanding and Generation
 UniEval is the first evaluation framework designed for unified multimodal models, including a holistic benchmark UniBench and the UniScore metric.
 
-[🐙 GitHub Page](https://github.com/xmed-lab/UniEval) [🤗 UniBench](https://huggingface.co/datasets/yili7eli/UniBench) [📄 arXiv](https://arxiv.org)
+[🐙 GitHub Page](https://github.com/xmed-lab/UniEval) [🤗 UniBench](https://huggingface.co/datasets/yili7eli/UniBench) [📄 arXiv](https://arxiv.org/abs/2505.10483)
 
 ## 💡 Introduction
 The emergence of unified multimodal understanding and generation models is rapidly attracting attention due to their ability to enhance instruction-following capabilities while minimizing model redundancy. However, there is a notable lack of a unified evaluation framework for these models, which would enable a streamlined and comprehensive evaluation process. Current evaluation methods rely on multiple task-specific benchmarks, leading to significant limitations, such as: lack of overall results; errors from extra evaluation models; reliance on extensive labeled images; lack of diversity and difficulty; inadequate metrics to evaluate instruction-following. To address these challenges, we introduce UniEval, the first evaluation framework designed specifically for unified multimodal models without the need for extra models, images, or annotations. This framework facilitates a simplified and overall evaluation process. Experimental results demonstrate that UniBench presents a greater challenge than current benchmarks, and UniScore offers enhanced evaluation accuracy. We conducted extensive evaluations on SoTA unified and generative models, uncovering new insights into the unique advantages of UniEval. The key components of this code include:
@@ -109,4 +109,14 @@ You can also import your model as load_model() of uni_eval.py, and use commands 
 This project is licensed under the MIT License.
 
 ## Citation
-The arxiv version is about to be updated, and the official paper is currently under review.
+```
+@misc{li2025unievalunifiedholisticevaluation,
+      title={UniEval: Unified Holistic Evaluation for Unified Multimodal Understanding and Generation}, 
+      author={Yi Li and Haonan Wang and Qixiang Zhang and Boyu Xiao and Chenchang Hu and Hualiang Wang and Xiaomeng Li},
+      year={2025},
+      eprint={2505.10483},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.10483}, 
+}
+```
